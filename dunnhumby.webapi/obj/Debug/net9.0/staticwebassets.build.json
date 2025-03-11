@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CYDMmiW0PdMj+ZofQiNSQ0OuUBfpp4sHppngwZu9yto=",
+  "Source": "Dunnhumby.WebAPI",
+  "BasePath": "_content/Dunnhumby.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

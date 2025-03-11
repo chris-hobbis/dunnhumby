@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dunnhumby.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:Dunnhumby.WebAPI.Controllers.ChartDataController">
+            <summary>
+            Chart data enpoints.
+            </summary>
+            <param name="productCategoryService"></param>
+            <param name="productService"></param>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ChartDataController.#ctor(Dunnhumby.WebAPI.Services.IProductCategoryService,Dunnhumby.WebAPI.Services.IProductService)">
+            <summary>
+            Chart data enpoints.
+            </summary>
+            <param name="productCategoryService"></param>
+            <param name="productService"></param>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ChartDataController.GetStockQuantityByCategory">
+            <summary>
+            Provides a stock count by category
+            </summary>
+            <returns>A collection of quantity counts per category</returns>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ChartDataController.GetProductsAdded">
+            <summary>
+            Provides counts of stock added by increments of time based values: last week, month and year
+            </summary>
+            <returns>A collection of stock counts added by time based increments</returns>
+        </member>
+        <member name="T:Dunnhumby.WebAPI.Controllers.ProductCategoriesController">
+            <summary>
+            Product category endpoints
+            </summary>
+            <param name="productCategoryService"></param>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductCategoriesController.#ctor(Dunnhumby.WebAPI.Services.IProductCategoryService)">
+            <summary>
+            Product category endpoints
+            </summary>
+            <param name="productCategoryService"></param>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductCategoriesController.GetProductCategories">
+            <summary>
+            Provides a collection categories
+            </summary>
+            <returns>Product category collection</returns>
+        </member>
+        <member name="T:Dunnhumby.WebAPI.Controllers.ProductsController">
+            <summary>
+            Product endpoints.
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductsController.#ctor(Dunnhumby.WebAPI.Services.IProductService)">
+            <summary>
+            Product endpoints.
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductsController.GetProducts">
+            <summary>
+            Provides a collection of products.
+            </summary>
+            <returns>A collection of products with related categories</returns>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductsController.GetProduct(System.String)">
+            <summary>
+            Provides a product by Id.
+            </summary>
+            <param name="id"></param>
+            <returns>The product</returns>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductsController.CreateProduct(Dunnhumby.WebAPI.Data.ProductInputModel)">
+            <summary>
+            Creates a product.
+            </summary>
+            <param name="product"></param>
+            <returns>The product that has been created</returns>
+        </member>
+        <member name="M:Dunnhumby.WebAPI.Controllers.ProductsController.UpdateProduct(System.String,Dunnhumby.WebAPI.Data.ProductInputModel)">
+            <summary>
+            Updates the product by Id.
+            </summary>
+            <param name="id"></param>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

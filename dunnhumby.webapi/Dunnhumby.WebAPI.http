@@ -1,0 +1,6 @@
+@Dunnhumby.WebAPI_HostAddress = http://localhost:5179
+
+GET {{Dunnhumby.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

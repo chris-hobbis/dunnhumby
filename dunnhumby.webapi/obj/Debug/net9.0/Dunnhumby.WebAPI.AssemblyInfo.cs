@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dunnhumby.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54d1bcfb1cef5d7df65fa37896b0a88e56162078")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+841d343889876e676d403655a92f766c924a57a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dunnhumby.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dunnhumby.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

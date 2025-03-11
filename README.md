@@ -37,28 +37,6 @@ To start the React development server, run:
 
 This will start the development server, usually at `http://localhost:5173/` (for Vite projects) or `http://localhost:5173/` (for Create React App projects).
 
-### 4. Build the Project for Production
-
-To create an optimized production build, use:
-
-```bash
- npm run build
-```
-
-This will generate the production-ready files inside the `dist` (for Vite) or `build` (for Create React App) folder.
-
-### 5. Serve the Production Build
-
-To test the production build locally:
-
-```bash
- npm install -g serve
- serve -s dist  # or 'build' for Create React App
-```
-
-This will serve the app on a local server, typically at `http://localhost:5173/`.
-
-
 # .NET Core WebAPI - Build & Run Guide
 
 This guide provides instructions on setting up, building, and running a .NET Core WebAPI project that runs on `http://localhost:5179/`.

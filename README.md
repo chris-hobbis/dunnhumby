@@ -90,7 +90,7 @@ The output will be placed in the `bin/Debug/netX.X/` directory.
 
 ### 5. Swagger API Documentation
 
-If Swagger is enabled, you can access API documentation at:
+Swagger is enabled, you can access API documentation at:
 
 ```
 http://localhost:5179/swagger/index.html
